@@ -99,5 +99,11 @@ body {
             }
         }
     }
+
+    .error {
+        text-align: left;
+        margin: 10 0 0 10px;
+        font-size: 14px;
+    }
 }
 
