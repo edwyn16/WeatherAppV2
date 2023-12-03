@@ -20,4 +20,25 @@ body {
     border-radius: 15px;
     padding: 40px 35px;
     text-align: center;
+
+    .search {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .search-field {
+            border: 0;
+            outline: 0;
+            background: var(--snow-white);
+            color: var(--gray-red);
+            padding: 10px 25px;
+            height: 60px;
+            border-radius: 30px;
+            flex: 1;
+            margin: 0 16px 0 0;
+            font-size: 18px;
+        }
+    }
 }
+
