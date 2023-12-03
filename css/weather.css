@@ -39,6 +39,61 @@ body {
             margin: 0 16px 0 0;
             font-size: 18px;
         }
+
+        .search-btn {
+            border: 0;
+            outline: 0;
+            background: var(--snow-white);
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            cursor: pointer;
+
+            .btn-image {
+                margin: 2 0 0 0;
+                width: 20px;
+            }
+        }
+    }
+
+    .weather-icon {
+        width: 170px;
+        margin: 30px 0 0 0;
+    }
+
+    .weather-temp {
+        font-size: 80px;
+        font-weight: 500;
+    }
+
+    .weather-city {
+        font-size: 45px;
+        font-weight: 400;
+        margin: -10px 0 0 0;
+    }
+
+    .weather-details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        margin: 50px 0 0 0;
+        
+        .weather-col {
+            display: flex;
+            align-items: center;
+            text-align: left;
+            
+            .col-image {
+                width: 40px;
+                margin: 0 10px 0 0;
+            }
+
+            .col-text {
+                font-size: 28px;
+                margin: -6px 0 0 0;
+            }
+        }
     }
 }
 
